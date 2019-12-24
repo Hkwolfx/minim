@@ -14,7 +14,7 @@ npm install --save react @types/react react-dom
 to start the server on locathost:3000 "npm run dev"
 
 to start the server online hosted on Heroku webservice, install first heroku CLI on your GNU
-and type " heroku ps:scale web=1 " and then " heroku open " in your terminal.
+and type " heroku ps:scale web=1 " then " heroku open " in your terminal.
 
 The products are all editable on https://snipcart.com
 
