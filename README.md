@@ -17,3 +17,5 @@ to start the server online hosted on Heroku webservice, install first heroku CLI
 and type " heroku ps:scale web=1 " and then " heroku open " in your terminal.
 
 The products are all editable on Snipcart.com
+
+live demo : https://minimeshop.herokuapp.com/
