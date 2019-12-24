@@ -19,3 +19,5 @@ and type " heroku ps:scale web=1 " and then " heroku open " in your terminal.
 The products are all editable on Snipcart.com
 
 live demo : https://minimeshop.herokuapp.com/
+
+Get your own API token on Snipcart.com
