@@ -1,6 +1,6 @@
 # minim
 
-NEXT.js E-shop Project
+NEXT.js E-shop Project by Hkwolfx for Axance Tech
 
 Dependencies :
 
