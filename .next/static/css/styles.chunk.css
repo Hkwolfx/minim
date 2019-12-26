@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Mystery+Quest|Rock+Salt&display=swap);
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -32,7 +33,7 @@ html, body {
     align-items: center;
     margin-left: auto; }
   .header__price {
-    color: #9094FF;
+    color: #ffde7d;
     margin-left: 10px; }
   .header__logo {
     height: 38px; }
@@ -43,13 +44,13 @@ html, body {
     margin-left: 20px; }
 
 .main {
-  opacity: 0,9; }
+  opacity: 1; }
 
 .background-image {
-  position: absolute;
-  opacity: 0.02;
-  left: -10vw;
-  top: -10vh;
+  position: fixed;
+  opacity: 0.025;
+  left: -13%;
+  top: -20%;
   height: 75vh;
   transform: rotate(20deg);
   pointer-events: none; }
@@ -66,9 +67,15 @@ html, body {
     text-transform: uppercase;
     margin: 0; }
   .promotional-message h2 {
-    font-size: 100px;
-    margin: 0;
-    color: #9094FF; }
+    font-size: 7vw;
+    font-family: 'Rock Salt', cursive;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    position: sticky;
+    text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: #ffde7d; }
     @media (max-width: 600px) {
       .promotional-message h2 {
         font-size: 50px; } }
@@ -120,11 +127,11 @@ html, body {
     font-weight: bold; }
   .product__image {
     grid-area: image;
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     border-radius: 4px;
-    box-shadow: 0px 18.025px 43.775px rgba(0, 0, 0, 0.25); }
+    box-shadow: 0px 18.025px 43.775px black; }
   .product__price-button-container {
     display: flex;
     grid-area: button; }
@@ -137,7 +144,7 @@ html, body {
     padding-left: 20px;
     padding-right: 20px;
     border: none;
-    background-color: #9094FF;
+    background-color: #ffde7d;
     color: white;
     position: relative; }
     .product__button:hover {
@@ -147,7 +154,7 @@ html, body {
     .product__button:before {
       content: ' ';
       position: absolute;
-      background-color: #9094FF;
+      background-color: #ffde7d;
       top: 0;
       left: 0;
       border-radius: 4px;
@@ -175,7 +182,7 @@ html, body {
     font-size: 36px; }
     .contact__title .colored {
       font-size: inherit;
-      color: #9094FF; }
+      color: white; }
   .contact__paragraph {
     width: 100%;
     max-width: 1000px;

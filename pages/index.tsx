@@ -22,11 +22,11 @@ const Index = (props: IIndexProps) => {
       </Head>
       <Header />
       <main className="main">
-        <img src="/static/aquarium.svg" alt="a" className="background-image" />
+        <img src="/static/icon.svg" alt="a" className="background-image" />
         <div className="promotional-message">
-          <h3>REDISCOVER</h3>
-          <h2>Fishkeeping</h2>
-          <p>An <strong>exclusive collection of bettas</strong> available for everyone.</p>
+          <h3>DISCOVER</h3>
+          <h2>MiniM</h2>
+          <p>An <strong>exclusive E-shop of stylish feng-chui items</strong> available for everyone.</p>
         </div>
         <ProductList products={props.products} />
         <Contact />
@@ -39,10 +39,11 @@ const Index = (props: IIndexProps) => {
 Index.getInitialProps = async () => {
   return {
     products: [
-      {id: "nextjs_halfmoon", name: "Halfmoon Betta", price: 25.00, image: "../static/halfmoon.jpg", description: "The Halfmoon betta is arguably one of the prettiest betta species. It is recognized by its large tail that can flare up to 180 degrees."} as IProduct,
-      {id: "nextjs_dragonscale", name: "Dragon Scale Betta", price: 35, image: "../static/dragonscale.jpg",description: "The dragon scale betta is a rarer and higher maintenance fish. It is named by its thick white scales covering his sides that looks like dragon scale armor."} as IProduct,
-      {id: "nextjs_crowntail", name: "Crowntail Betta", price: 7.50, image: "../static/crowntail.jpg", description: "The crowntail is pretty common, but interesting none the less. It's recognized by the shape of its tail that has an appearance of a comb."} as IProduct,
-      {id: "nextjs_veiltail", name: "Veiltail Betta", price: 5.00, image: "../static/veiltail.jpg", description: "By far the most common betta fish. You can recognize it by its long tail aiming downwards."} as IProduct,
+      {id: "nextjs_luxury", name: "Quality Relaxing Chair", price: 45.00, image: "../static/luxury.jpg", description: "A chair called Vendome by it's creator."} as IProduct,
+      {id: "nextjs_bathset", name: "Feng-chui Bath Set", price: 250.00, image: "../static/bathset.jpg", description: "A typical exemple of what a feng-chui expert can do with not so much."} as IProduct,
+      {id: "nextjs_suspended", name: "Suspended Zen Chair", price: 75.50, image: "../static/suspended.jpg", description: "A suspended chair to free your mind and your creativity with a warm coffee in your hands."} as IProduct,
+      {id: "nextjs_table", name: "Anti-Stress Table", price: 35.00, image: "../static/table.jpg", description: "By far our best product, the well-known calming power of wood is nothing to prove in feng-chui culture."} as IProduct,
+      {id: "nextjs_lamptable", name: "Our last Bad Boys.", price: 75.00, image: "../static/lamptable.jpg", description: "The totally needed duo ( lamp and table ) for a long and comfortable night with your favorite books."} as IProduct,
     ]
   }
 }
