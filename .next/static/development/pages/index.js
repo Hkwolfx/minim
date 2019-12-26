@@ -9541,7 +9541,7 @@ Index.getInitialProps = function _callee() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!**************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fpadawan%2FDocuments%2Freactapps%2Fminim%2Fpages%2Findex.tsx ***!
   \**************************************************************************************************************************************/
@@ -9564,5 +9564,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
