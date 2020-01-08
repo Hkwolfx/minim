@@ -20,3 +20,5 @@ Get your own API token on https://snipcart.com
 
 live demo : https://minimeshop.herokuapp.com/
 repository : https://github.com/Hkwolfx/minim
+
+The projet is licensed under MIT : https://github.com/Hkwolfx/minim/blob/master/LICENSE.md
